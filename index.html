@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <title>Tows by Date Chicago</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <header>
+    <div id="title">
+      <h1>Did my car get towed?</h1>
+    </div>
+    <div id="chicago">
+      <h1>CHICAGO</h1>
+    </div>
+  </header>
+    <form>
+      <input id="search-box" type="date" placeholder="Enter Date - yyyy-mm-dd" />
+      <input type="submit" value="submit" />
+    </form>
+    <!-- <p>Ctrl/Command + F, then enter plate # to find vehicle.</p>
+    <h1>Vehicles</h1>
+    <div class = "three-columns">
+        <div class = 'row'>
+          <div class = 'column'>
+            <div class = 'plateColumn'>
+              Plate
+              <div class = 'plate'>
+            </div>
+          </div>
+            <div class = 'column'>
+              <div class = 'makeColumn'>
+                Make
+              <div class = 'make'>
+              </div>
+            </div>
+        <div class = 'column'>
+            <div class = 'styleColumn'>
+              Style
+            <div class = 'style'>
+            </div>
+            </div>
+          </div>
+      </div> -->
+      <table class="pure-table pure-table-bordered">
+        <thead>
+          <tr>
+          <th class="plateColumn" ><p>Plate</p></th>
+          <th class="makeColumn" ><p>Make</p></th>
+          <th class="styleColumn" ><p>Style</p></th>
+          </tr>
+        </thead>
+          <tbody>
+            <tr>
+              <td class="plate"></td>
+              <td class="make"></td>
+              <td class="style"></td>
+            </tr>
+          </tbody>
+
+       
+      </table>
+
+  </body>
+
+  
