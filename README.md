@@ -1,11 +1,16 @@
-# Project-1
-Project 1
-Simple site designed to show all the cars towed in Chicago on a given date.  
+Chicago tow find is an html website that allows users to see if their car has been towed in Chicago on a given date. The app is built with simple html, css, and javascript utilizing jquery. The information is pulled from the official City of Chicago public API via AJAX request. 
 
-It pulls from the city of Chicago API using jquery, displaying each vehicle by plate, make, and model. 
+Features: 
+Access to Chicago Public Database 
+Find vehicle by Plate, Make, and Style 
+Info Current for past 60 days.
 
-I added an animatin that slowly fades the text using keyframes in css.
 
-https://dmcmcmahon714.github.io/Project-1/
+Technoligies Used:
 
-I would have liked to add borders to each entry for easier reading.  I also would like to replace "undefined" with "no plate", because those entries just referred to cars without a plate.  It was challenge to find an API that worked after experimenting with a lot. Time and lack thereof was a big issue for me this week.
+HTML
+Javascript
+Jquery
+Ajax
+External API
+
